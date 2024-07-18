@@ -28,7 +28,7 @@ const groceryItems = [
   },
 ];
 
-export default function App() {
+function App() {
   const [items, setItems] = useState(groceryItems);
 
   function handleAddItem(item) {
